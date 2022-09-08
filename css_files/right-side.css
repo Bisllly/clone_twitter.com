@@ -1,0 +1,9 @@
+.right-side{
+    display:inline-block;
+    z-index:3;
+    padding-left:0;
+    flex:1;
+}
+    .right-twitter-icon{
+        margin-left:20px;
+    }
