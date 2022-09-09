@@ -1,9 +1,25 @@
 .right-side{
     display:inline-block;
     z-index:3;
-    padding-left:0;
+    padding:36px;
     flex:1;
 }
     .right-twitter-icon{
-        margin-left:20px;
+        color:rgb(231,233,234);
+        margin-top:12px;
+        padding: 0 0 12px;
+        width:45px; /*45px*/
+        height:57px; /*57px*/
+    }
+    .right-slogan{
+        font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-weight:bold;
+        font-size:75px;    
+        color:rgb(231,233,234);
+
+        letter-spacing: -1.2px;
+        transform: scaleY(0.90);
+        line-height:84px;
+        
+        margin: 38px 0 48px;
     }
