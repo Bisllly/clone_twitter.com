@@ -21,5 +21,43 @@
         transform: scaleY(0.90);
         line-height:84px;
         
-        margin: 38px 0 48px;
+        margin: 35px 0 46px;
     }
+    .right-participation-note{
+        font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-weight:bold;
+        font-size:38px;    
+        color:rgb(231,233,234);
+
+        letter-spacing: -1.2px;
+        transform: scaleY(0.90);
+        
+        margin: 33px 0 26px;
+    }
+
+    .google-register-link{
+        text-decoration: none;
+    }
+    .google-register-button{
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        width:292px;
+        height:44px;
+        border-radius:100px;
+
+        cursor:pointer;
+        
+    }
+        .right-google-logo{
+            width:20px;
+            height:20px;
+            margin-right:6px;
+        }
+        .google-participation-note{
+            color:rgb(60,64,67);
+            font-size:13px;
+            font-weight:500;
+            font-family:'Noto Sans Display', sans-serif;
+            letter-spacing: 0.25px;
+        }
