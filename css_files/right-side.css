@@ -35,29 +35,80 @@
         margin: 33px 0 26px;
     }
 
-    .google-register-link{
+    .google-register-link,
+    .apple-register-link,
+    .phone-register-link {
         text-decoration: none;
     }
-    .google-register-button{
+    .google-register-button,
+    .apple-register-button {
         display:flex;
         align-items: center;
         justify-content:center;
-        width:292px;
+        width:300px;
         height:44px;
         border-radius:100px;
+        margin-bottom:8px;
 
         cursor:pointer;
         
     }
-        .right-google-logo{
+        .right-google-logo,
+        .right-apple-logo {
             width:20px;
             height:20px;
             margin-right:6px;
         }
-        .google-participation-note{
+        .google-participation-note {
             color:rgb(60,64,67);
             font-size:13px;
             font-weight:500;
             font-family:'Noto Sans Display', sans-serif;
             letter-spacing: 0.25px;
         }
+        .apple-participation-note {
+            color:black;
+            font-size:14px;
+            font-weight:bold;
+            font-family:'Noto Sans Display', sans-serif;
+            margin-bottom:1px;
+        }
+    .or-container{
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        width:300px;
+        margin-bottom:8px;
+    }
+        .left-line, 
+        .right-line{
+            background-color:rgb(47,51,54);
+            height:1px;
+            width:126.078px;
+            margin:0 4px;
+        }
+        .or{
+            font-family:Arial;
+            font-size:15px;
+            font-weight:100px;
+            margin: 0 4px;
+        }
+    .phone-register-button{
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        width:300px;
+        height:44px;
+        border-radius:100px;
+        margin-bottom:8px;
+        background-color: rgb(29, 155, 240);
+        cursor:pointer;
+    }
+        .phone-participation-note{
+            color:white;
+            font-size:15px;
+            font-weight:bold;
+            font-family:arial, sans-serif;
+            letter-spacing:-0.25px;
+        }
+    
